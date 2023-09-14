@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- # level 1_1 -->
+    <section>
+      <form action="submit">
+        <input type="number" id="zahl" />
+        <button onclick="double(); return false" type="submit">
+          Verdoppel mich
+        </button>
+      </form>
+      <p id="result1"></p>
+    </section>
+
+    <!-- #level 1_2 -->
+    <section class="level1_2">
+      <form action="submit">
+        <label for="number">Gib dein Geburtsjahr ein:</label>
+        <input type="number" id="age" />
+        <button onclick="calculate(); return false" type="submit">
+          Berechne mein Alter
+        </button>
+      </form>
+      <p class="result2"></p>
+    </section>
+
+    <!-- #level1_3 -->
+    <section class="level1_3">
+      <form action="submit">
+        <label for="number">Alter 1</label>
+        <input type="number" id="age1" /> <br />
+        <label for="number">Alter 2</label>
+        <input type="number" id="age2" /> <br />
+        <button onclick="berechne(); return false" type="submit">
+          Berechne
+        </button>
+      </form>
+      <p>Die Differenz sind</p>
+      <p class="result3"></p>
+    </section>
+
+    <!-- #level1_3 COUNTER-->
+    <section class="counter">
+      <div>
+        <h2>Counter</h2>
+        <h3 class="result4"></h3>
+        <form action="" onsubmit="return false">
+          <button onclick="plus1(); return false" type="submit">+1</button>
+          <button onclick="minus1(); return false" type="submit">-1</button>
+          <br />
+          <button onclick="plus10(); return false" type="submit">+10</button>
+          <button onclick="minus10(); return false" type="submit">-10</button>
+          <br />
+          <button onclick="plus100(); return false" type="submit">+100</button>
+          <button onclick="minus100(); return false" type="submit">-100</button>
+          <br />
+          <button onclick="resetet(); return false" type="submit">reset</button>
+          <button onclick="multiply(); return false" type="submit">*2</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- #level1_2 - Bgc ändern -->
+    <section class="bgc">
+      <div>
+        <form action="submit">
+          <input type="text" id="color" />
+          <p>Give me a color!</p>
+          <button onclick="changebgc(); return false" type="submit">
+            Senden
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- #level3_3 change-body -->
+    <section class="change-body">
+      <form action="submit">
+        <label for="range">red</label>
+        <input
+          type="range"
+          id="red"
+          min="0"
+          max="255"
+          value="rgb-red"
+          step="1"
+          onchange="changeBackground()"
+        />
+        <label for="range">green</label>
+        <input
+          type="range"
+          id="green"
+          min="0"
+          max="255"
+          value="rgb-green"
+          step="1"
+          onchange="changeBackground()"
+        />
+        <label for="range">blue</label>
+        <input
+          type="range"
+          id="blue"
+          min="0"
+          max="255"
+          value="rgb-blue"
+          step="1"
+          onchange="changeBackground()"
+        />
+      </form>
+    </section>
+
+    <!-- #level2_1 onclick -->
+
+    <section class="level2_1">
+      <h2 class="headline" class="styling">Headline</h2>
+      <button onclick="changeHeadline()">Change Headline</button>
+      <button onclick="resetHeadline()">Reset Headline</button>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

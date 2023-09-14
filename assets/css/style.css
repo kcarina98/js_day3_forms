@@ -1,0 +1,122 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: 16px;
+  border: 0.5px solid lightgrey;
+  padding: 10px 20px;
+  margin: 10px 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+button {
+  background-color: gray;
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 20px;
+}
+
+p {
+  font-size: 16px;
+  color: crimson;
+  margin: 10px 100px;
+}
+
+.level1_2 label,
+.level1_2 input {
+  display: block;
+}
+
+/* #level1_3 Counter */
+
+.counter div {
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(148, 55, 55);
+  border-radius: 20px;
+  background-color: lightcoral;
+  margin: 50px auto;
+}
+
+.level1_3 p:first-of-type {
+  color: black;
+  margin-left: 20px;
+}
+
+.counter div h2 {
+  text-align: center;
+  color: white;
+}
+
+.counter h3 {
+  text-align: center;
+  color: lightgray;
+}
+
+.counter button {
+  border: 1px solid white;
+  background-color: lightcoral;
+  color: white;
+  border-radius: 20%;
+  padding: 5px 10px;
+}
+
+/* #level1_2 background ändern */
+
+.bgc div {
+  height: 100px;
+  width: 200px;
+  background-color: lightgrey;
+  border-radius: 20px;
+  margin: 50px auto;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.bgc p {
+  color: black;
+  width: 100%;
+  margin: 0;
+}
+
+.bgc div button {
+  padding: 5px 10px;
+  background-color: white;
+  color: gray;
+  border: none;
+  border-radius: 20px;
+}
+
+/* #level3_3 change-body */
+
+.change-body {
+  width: 50%;
+  text-align: center;
+  margin: 100px auto;
+}
+
+/* #level 2_1 */
+.level2_1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.level2_1 h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.styling {
+  background-color: crimson;
+  color: white;
+}
